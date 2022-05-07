@@ -1,0 +1,62 @@
+form {
+  width: 500px;
+
+  @media screen and (max-width: 1080px) {
+    width: 300px;
+  }
+
+  input {
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 16px;
+    background: #FFF;
+    border: 1px solid #a8a8b3;
+    margin-top: 15px;
+  }
+
+  button {
+    margin-top: 16px;
+  }
+
+  button, input {
+    width: 100%;
+  }
+  
+}
+
+.lancamento {
+  width: 500px;
+
+  @media screen and (max-width: 1080px) {
+    width: 300px;
+  }
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: #FFF;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: .05);  
+  margin-top: 20px;
+
+  p {
+    margin-top: 4px !important;
+    border-top: 1px solid #cecece;
+    text-align: left;
+  }
+
+  .titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #83838b;
+
+    
+  }
+
+  .valor {
+    color: #0CA1D0;
+  }
+
+}

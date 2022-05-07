@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    ports:
+      - '4000:3000'
+    command: yarn start
+    restart: always

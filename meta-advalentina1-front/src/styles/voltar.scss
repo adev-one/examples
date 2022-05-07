@@ -1,0 +1,19 @@
+.voltarBtn {
+  max-width: 150px;
+  padding: 4px 30px;
+  background-color: #FFF;
+  border: 2px solid #0CA1D0;
+  border-radius: 10px;
+  color: #0CA1D0;
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #0CA1D0;
+    color: #FFF;
+  }
+}
